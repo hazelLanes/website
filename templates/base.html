@@ -5,8 +5,8 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{% block title %}Hazelnut{% endblock title %}</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="favicon.png" />
+        <link rel="stylesheet" href="{{ get_url(path="style.css") }}" />
+        <link rel="icon" href="{{ get_url(path="favicon.png") }}" />
         {% endblock head %}
     </head>
     <body>
