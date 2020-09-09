@@ -85,3 +85,7 @@ table tr:last-child td {
 tr:nth-child(even) {
     background-color: #353535;
 }
+
+div.table-wrapper {
+    overflow-x: auto;
+}

@@ -21,11 +21,13 @@ Characters have the 6 stats typical of tabletop RPGs. Each stat has a "bonus", w
 
 **Charisma:** Roll under wisdom to flatter, deceive, barter, threaten, etc. A character's Charisma may also influence a character's fate or luck.
 
+{% table() %}
 | Stat  | Bonus | Stat     | Bonus | Stat     | Bonus |
 |-------|:-----:|----------|:-----:|----------|:-----:|
 | 1,2   |    -3 | 9,10,11  |     0 | 18,19,20 |    +3 |
 | 3,4,5 |    -2 | 12,13,14 |    +1 | 21,22,23 |    +4 |
 | 6,7,8 |    -1 | 15,16,17 |    +2 | 24+      |    +5 |
+{% end %}
 
 ## Stat Tests
 If an action could fail in an interesting way, a test of a stat will be called for. Roll a d20 and add the relevant stat. If the result is at or above 20, the PC succeeds. If the result is below 20, they fail.
@@ -126,12 +128,14 @@ Meat represents the punishment a character's body can take before suffering majo
 ## Reaction and Morale Rolls
 When encountering monsters, roll 2d6 + the CHA bonus of the most visible party member.
 
+{% table() %}
 |       2d6+ | Result           | Notes                         |
 |-----------:|------------------|-------------------------------|
 |  2 or less | Immediate Attack | Offended or disgusted.        |
 |        3-7 | Unfavorable      | May attack if victory likely. |
 |       8-11 | Favorable        | Parley or bargaining.         |
 | 12 or more | Very Favorable   | May choose to cooperate.      |
+{% end %}
 
 Monsters (or hirelings) may try to run away or surrender if combat turns against them. Monsters have a Morale value listed from 2 (craven) to 12 (unbreakable). Check morale when:
 
@@ -150,17 +154,21 @@ If they took a further 1 point of damage (-9 HP), they would roll 1d12 + 9 (Leth
 
 If required, roll 1d6 for location.
 
+{% table() %}
 | Result | 1. Arm                 | 2. Leg                 | 3-4. Torso             | 5-6. Head                   |
 |-------:|------------------------|------------------------|------------------------|-----------------------------|
 |     1+ | Disabled X Days        | Disabled X Days        | Cracked Ribs X Days    | Concussed X Days            |
 |    11+ | 1 Fatal Wound, Mangled | 1 Fatal Wound, Mangled | 1 Fatal Wound, Crushed | 1 Fatal Wound, Skullcracked |
 |    16+ | X-15 Fatal Wounds      | X-15 Fatal Wounds      | X-15 Fatal Wounds      | X-15 Fatal Wounds           |
+{% end %}
 
+{% table() %}
 | Result | Acid, Fire / Cold, Ice         | Lightning            | Venom / Toxin          | Magic                 |
 |-------:|--------------------------------|----------------------|------------------------|-----------------------|
 |     1+ | Scorched / Frostbite X Days    | Burned X Days        | Sickened X Days        | Anathema X Days       |
 |    11+ | 1 Fatal Wound, Burned / Frozen | 1 Fatal Wound, Fried | 1 Fatal Wound, Wracked | 1 Fatal Wound, Marked |
 |    16+ | X-15 Fatal Wounds              | X-15 Fatal Wounds    | X-15 Fatal Wounds      | X-15 Fatal Wounds     |
+{% end %}
 
 ## Fatal Wounds
 A PC has 3 rounds to clear any Fatal Wounds or they die. They can attempt to remove a Fatal Wound on their turn by rolling a 6 on a d6. PCs with fatal wounds are "unconscious" in the fact that they cannot take conscious or deliberate actions, they are not necessarily quiet or asleep and could be quite the opposite, screaming in pain, etc. Remove oldest Fatal Wounds first.
@@ -285,11 +293,13 @@ A "box" of a weapon's ammo takes up 1 Inventory Slot and costs **one tenth** the
 ## Light Sources
 Outside of the listed light range, light sources illuminate shadows. Vague shapes, movement, and reflective surfaces will be visible in shadows, but no details can be distinguished. Lighting a torch or lantern takes 1 round. PCs are assumed to be carrying basic firestarting gear. Magic or cantrips may ignite a light source immediately.
 
+{% table() %}
 | Light Source | Radius                 | Duration               |
 |--------------|------------------------|------------------------|
 | Torch        | 20' light, 20' shadows | 1 hour                 |
 | Lantern      | 30' light, 30' shadows | 3 hours / flask of oil |
 | Candle       | 5' light, 10' shadows  | 1 hour                 |
+{% end %}
 
 ## Hirelings
 Hired at a fixed rate or purchased. Dangerous work may require bonuses. Generic hirelings have 10 in all stats, 5 HP, and no skills outside their profession.
@@ -347,6 +357,7 @@ PCs gain experience points (XP) by exploring or carousing. Exploring grants XP b
 
 Whenever a PC levels, increase their Meat, reroll their Grit according to their level and take the result if it is higher than the existing value. A PC can also test to improve a stat of their choice. Declare the stat and roll 3d6. If the result is over, the stat's value increases by 1.
 
+{% table() %}
 | Level | XP      | Meat     | Grit     | Templates |
 |------:|:--------|:---------|:---------|:---------:|
 |     1 | -       | Con - 4  | 1d6 + 1  |         1 |
@@ -360,6 +371,7 @@ Whenever a PC levels, increase their Meat, reroll their Grit according to their 
 |     9 | 11,000  | Con + 9  | 3d6 + 9  |         - |
 |    10 | 22,000  | Con + 10 | 3d6 + 10 |         - |
 |    +1 | +15,000 | +1       | +1       |         - |
+{% end %}
 
 At level 5 and above, every time a PC levels up, they can retire to safety. They leave the adventure to settle down, buy some land if they can afford it, open a shop, teach at a school, beg in the gutter, etc. The GM can torment them no longer.
 
