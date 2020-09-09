@@ -1,0 +1,19 @@
+# The URL the site will be built for
+base_url = "https://hazelnut.dev"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+menu = [
+     {url = "$BASE_URL", name = "Home"},
+     {url = "https://github.com/hazellanes/", name = "github"},
+     {url = "https://hazellanes.itch.io/", name = "itch.io"},
+]

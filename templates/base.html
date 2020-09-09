@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{% block title %}Hazelnut{% endblock title %}</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="favicon.png" />
+        {% endblock head %}
+    </head>
+    <body>
+        {% include "header.html" %}
+        <div id="content">
+            {% block content %}
+            {% endblock content %}
+        </div>
+        <div id="footer">
+            {% block footer %}
+            {% endblock footer %}
+        </div>
+    </body>
+</html>

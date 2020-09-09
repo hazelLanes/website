@@ -1,0 +1,9 @@
+<header>
+    <nav>
+        {% for item in config.extra.menu %}
+        <a href="{{ item.url | safe | replace(from="$BASE_URL", to=config.base_url) }}">
+            {{ item.name }}
+        </a>
+        {% endfor %}
+    </nav>
+</header>
