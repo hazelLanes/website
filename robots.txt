@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.hazelnut.dev/sitemap.xml
+Sitemap: https://hazelnut.dev/sitemap.xml
