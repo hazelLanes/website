@@ -2,12 +2,13 @@
 +++
 
 # Hewwo
+I am Hazel. I think I am pretty neat. I make and do stuff sometimes.
+I do not know how to talk about myself with sentences so I guess that is that.
 
-Welcome to hell! I am really great!
-How do ya doo??? Ifd DSkfj sdkf jlkdsf jlkdsjf
-dsa kfjds flkjds fsad
-f
-kdsf jds
-jf
-ds
-fdsf.. HAHAHAHAHAHAAH.
+## Elsewhere I Exist
+| | |
+|-|-|
+| Email:   | [hazelra@disroot.org](mailto:hazelra@disroot.org) |
+| Github:  | <https://github.com/hazelLanes> |
+| itch.io: | <https://hazellanes.itch.io> |
+| Fedi:    | [@hazel@hellsite.site](https://hellsite.site/@hazel) |
