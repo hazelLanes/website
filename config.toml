@@ -13,8 +13,9 @@ build_search_index = false
 
 [extra]
 menu = [
-     {url = "$BASE_URL", name = "Home"},
-     {url = "$BASE_URL/glog", name = "GLOG Rules"},
-     {url = "https://github.com/hazellanes/", name = "github"},
-     {url = "https://hazellanes.itch.io/", name = "itch.io"},
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/glog", name = "GLOG Rules"},
+    {url = "https://pics.hazelnut.dev", name = "Photos"},
+    {url = "https://github.com/hazellanes", name = "github"},
+    {url = "https://hazellanes.itch.io", name = "itch.io"},
 ]
