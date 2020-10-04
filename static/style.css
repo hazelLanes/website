@@ -30,14 +30,17 @@ h2 {
 
 h1::before {
     content: "# ";
+    color: #747369;
 }
 
 h2::before {
     content: "## ";
+    color: #747369;
 }
 
 h3::before {
     content: "### ";
+    color: #747369;
 }
 
 a {
