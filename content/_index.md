@@ -1,12 +1,15 @@
 +++
 +++
 
-# Hewwo
+Welcome to my site on the web. There is not really much to be seen here currently,
+but hopefully that should change through time.
+
+## Who
 
 I am Hazel. I think I am pretty neat. I make and do stuff sometimes.
 I do not know how to talk about myself with sentences so I guess that is that.
 
-## Elsewhere I Exist
+## Where
 
 |          |                                                                          |
 | -------- | ------------------------------------------------------------------------ |
