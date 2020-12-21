@@ -1,4 +1,5 @@
 <header>
+    <h1 class="site-title">{{ config.title }}</h1>
     <nav>
         {% for item in config.extra.menu %}
         <a href="{{ item.url | safe | replace(from="$BASE_URL", to=config.base_url) }}">
