@@ -11,26 +11,47 @@
     </head>
     <body>
         <header>
+    <h1 class="site-title">Hazel&#x27;s Site</h1>
     <nav>
-        
-        <a href="https:&#x2F;&#x2F;hazelnut.dev">
-            Home
-        </a>
-        
-        <a href="https:&#x2F;&#x2F;hazelnut.dev&#x2F;glog">
-            GLOG Rules
-        </a>
-        
-        <a href="https:&#x2F;&#x2F;pics.hazelnut.dev">
-            Photos
-        </a>
-        
+        <ul>
+            
+                <li>
+                    <a class="internal" href="https:&#x2F;&#x2F;hazelnut.dev">
+                        Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a class="" href="https:&#x2F;&#x2F;hazelnut.dev&#x2F;glog">
+                        GLOG Rules
+                    </a>
+                </li>
+            
+                <li>
+                    <a class="internal" href="https:&#x2F;&#x2F;hazelnut.dev&#x2F;tabletop">
+                        Tabletop Shit
+                    </a>
+                </li>
+            
+                <li>
+                    <a class="" href="https:&#x2F;&#x2F;pics.hazelnut.dev">
+                        Photos
+                    </a>
+                </li>
+            
+        </ul>
     </nav>
 </header>
 
         <div id="content">
             
-<h1>Table of Contents</h1>
+
+<h1 class="post-title">Habeline GLOG</h1>
+<p class="post-date">2020-06-17</p>
+
+
+<h1>Table of Contents <span id="toc-toggle">[-]</span></h1>
+<div id="toc">
 <ul>
 
     <li>
@@ -204,6 +225,30 @@
     </li>
 
 </ul>
+</div>
+<script>
+ var shown = false;
+ var toggle = document.getElementById("toc-toggle");
+ var toc = document.getElementById("toc");
+
+ function update() {
+     if (shown) {
+         toc.style.display = "block";
+         toggle.innerHTML = "[-]";
+     } else {
+         toc.style.display = "none";
+         toggle.innerHTML = "[+]";
+     }
+ }
+ 
+ toggle.parentNode.addEventListener("click", function() {
+     shown = !shown;
+     update();
+ });
+
+ update();
+</script>
+
 
 <h1 id="core-rules">Core Rules</h1>
 <h2 id="stats">Stats</h2>
@@ -515,6 +560,7 @@
 </div>
 <p>At level 5 and above, every time a PC levels up, they can retire to safety. They leave the adventure to settle down, buy some land if they can afford it, open a shop, teach at a school, beg in the gutter, etc. The GM can torment them no longer.</p>
 <p>At level 10 and above, a PC who dies can attempt to fight death. Should they best whatever reaper or being has come to collect their soul, they can return to life or possibly work out some other deal. Future saves to avoid death will be at a penalty.</p>
+
 
 
         </div>

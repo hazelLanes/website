@@ -4,7 +4,14 @@
         <loc>https://hazelnut.dev/</loc>
     </url>
     <url>
+        <loc>https://hazelnut.dev/farewell/</loc>
+        <lastmod>2020-12-23</lastmod>
+    </url>
+    <url>
         <loc>https://hazelnut.dev/glog/</loc>
         <lastmod>2020-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://hazelnut.dev/tabletop/</loc>
     </url>
 </urlset>
