@@ -74,17 +74,27 @@ a:not(.internal)::after {
   content: " " url("/link.svg");
 }
 
-a.external::after {
+a.show-url::after {
   content: " [" attr(href) "]" url("/link.svg");
   color: var(--link-fancy);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
 }
 
 nav a {
   color: var(--link-fancy);
 }
 
-nav a::after {
-  content: " " url("/link.svg");
+nav a.internal {
+  margin-right: 1ch;
 }
 
 div.table-wrapper {
@@ -136,4 +146,9 @@ div.table-wrapper tr:nth-child(even) {
   margin: 0;
   float: right;
   cursor: pointer;
+}
+
+p.post-date {
+  color: var(--decoration);
+  margin: 0;
 }
