@@ -49,7 +49,7 @@ h2 {
   border-bottom: 2px solid var(--foreground);
 }
 
-h1:not(.site-title)::before {
+h1:not(.site-title):not(.post-title)::before {
   content: "# ";
   color: var(--decoration);
 }
@@ -146,6 +146,13 @@ div.table-wrapper tr:nth-child(even) {
   margin: 0;
   float: right;
   cursor: pointer;
+}
+
+h1.post-title {
+  font-size: 1.5em;
+  border: none;
+  line-height: 1;
+  margin: 0;
 }
 
 p.post-date {
